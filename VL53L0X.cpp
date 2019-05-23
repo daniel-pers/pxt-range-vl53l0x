@@ -10,7 +10,7 @@
 
 // The Arduino two-wire interface uses a 7-bit number for the address,
 // and sets the last bit correctly based on reads and writes
-#define ADDRESS_DEFAULT (0b0101001 << 1)
+#define ADDRESS_DEFAULT (0b0101010 << 1)
 
 // Record the current time to check an upcoming timeout against
 #define startTimeout() (timeout_start_ms = millis())
