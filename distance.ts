@@ -1,4 +1,4 @@
-//% color=45 weight=80
+//% color=65 weight=80
 //% icon="\uf337"
 namespace Rangefinder2 {
 
@@ -6,7 +6,7 @@ namespace Rangefinder2 {
 	* Initialises the rangefinder.
 	**/
 	//% block="initialise2"
-	//% blockId=ranger_init shim=Rangefinder2::init
+	//% blockId=ranger_init2 shim=Rangefinder2::init
 	export function init(): void {
 		//shim
 	}
@@ -15,7 +15,7 @@ namespace Rangefinder2 {
 	* Returns the distance detected by the rangefinder (in mm).
 	**/
 	//% block="distance2 (in mm)"
-	//% blockId=ranger_dist_mm shim=Rangefinder2::distance
+	//% blockId=ranger_dist_mm2 shim=Rangefinder2::distance
 	export function distance() : number {
 		//shim
 		return 0;
