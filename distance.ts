@@ -3,11 +3,11 @@
 namespace Rangefinder2 {
 
 	/**
-	* Initialises the rangefinder.
+	* Initialises the rangefinder2.
 	**/
 	//% block="initialise2"
-	//% blockId=ranger_init2 shim=Rangefinder2::init
-	export function init(): void {
+	//% blockId=ranger_init2 shim=Rangefinder2::init2
+	export function init2(): void {
 		//shim
 	}
 
@@ -15,8 +15,8 @@ namespace Rangefinder2 {
 	* Returns the distance detected by the rangefinder (in mm).
 	**/
 	//% block="distance2 (in mm)"
-	//% blockId=ranger_dist_mm2 shim=Rangefinder2::distance
-	export function distance() : number {
+	//% blockId=ranger_dist_mm2 shim=Rangefinder2::distance2
+	export function distance2() : number {
 		//shim
 		return 0;
 	}
