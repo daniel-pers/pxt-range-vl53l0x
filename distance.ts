@@ -1,6 +1,6 @@
 //% color=65 weight=80
 //% icon="\uf337"
-namespace Rangefinder {
+namespace Rangefinder_V2 {
 
 	/**
 	* Initialises the rangefinder.
