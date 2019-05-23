@@ -35,7 +35,7 @@ class VL53L0X
 
       ALGO_PART_TO_PART_RANGE_OFFSET_MM           = 0x28,
 
-      I2C_SLAVE_DEVICE_ADDRESS                    = 0x8A,
+      I2C_SLAVE_DEVICE_ADDRESS                    = 0x8B,
 
       MSRC_CONFIG_CONTROL                         = 0x60,
 
